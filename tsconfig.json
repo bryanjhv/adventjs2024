@@ -1,9 +1,7 @@
 {
   "extends": [
+    "@tsconfig/node20/tsconfig.json",
     "@tsconfig/strictest/tsconfig.json"
   ],
-  "compilerOptions": {
-    "lib": ["ES2015"]
-  },
   "include": ["src"]
 }
